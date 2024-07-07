@@ -28,11 +28,15 @@
     font-size: 35px;
     font-weight: bold;
     color: black;
+    text-align: center;
 }
 .secondary-bg{
     background-color: #FFF8F3 ;
 }
-
+.text-center{
+    text-align: center;
+    
+}
 
 
   /* head  */
@@ -96,7 +100,7 @@ nav ul{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-   margin-top: 130px;
+  
 
 }
 .about-title{
@@ -108,6 +112,7 @@ nav ul{
 main{
     max-width: 1140px;
     margin: 0px auto;
+    margin-top: 130px;
 }
 .item-description{
     font-weight:bold;
@@ -118,4 +123,20 @@ main{
     justify-content: space-around;
     margin-top: 100px;
     font-size: 25px;
+}
+.skill-container{
+    display: flex;
+   gap: 24px;
+   
+
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgb(248, 186, 135);
+    border-radius: 5px;
+    margin-top: 130px;
+}
+.skills{
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
